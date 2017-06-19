@@ -1,0 +1,118 @@
+body {
+    background-image: url(wallpap1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    margin-top: 25px;
+    margin-right: 35px;
+    margin-left: 35px;
+}
+
+.panel {
+    height: 300px;
+    width: 200px;
+    border: 3px solid black;
+    background-color: rgba(255, 255, 255, 0.71);
+    padding: 0px 15px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    -webkit-transition: width 1s, height 1s;
+    transition: width 1s, height 1s;
+    border-radius: 10px;
+}
+
+.panel:hover {
+    width: 240px;
+    background-color: rgba(255, 248, 51, 0.66);
+}
+
+.thecities {
+    display: flex;
+    justify-content: center;
+    font-family: Rockwell;
+    font-weight: 700;
+}
+
+.mainbody {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+img {
+    display: flex;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+h1 {
+    font-family: Rockwell;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 400%;
+    margin-right: 10px;
+}
+
+#clock {
+    margin-left: 15px;
+}
+
+#date {
+    margin-left: 15px;
+    margin-top: 10px;
+    font-family: Rockwell;
+    font-size: 200%;
+    font-weight: bold;
+}
+
+button {
+    margin: auto;
+    min-height: 30px;
+}
+
+.btn-danger {
+    margin-bottom: 10px;
+}
+
+input {
+    height: 30px;
+    float: right;
+    margin-right: 18px;
+    border-radius: 5px;
+}
+
+#searchbutton {
+    width: 60px;
+    height: 30px;
+    margin-left: 5px;
+}
+
+#search {
+    margin-right: -10px;
+}
+
+#myInput {
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+#clockid {
+    margin-left: 10px;
+}
+
+element.style {
+    width: 100px;
+    height: 100px;
+}
+
+body {
+    overflow-y: scroll;
+}
+
+.bottom {
+    margin-bottom: 20px;
+}

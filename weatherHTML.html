@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Weather</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="weatherCSS.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <!--CLOCK AND HEADER-->
+        <div class="row">
+            <div class="col-sm-3">
+                
+                <canvas id="clockid" class="CoolClock" ></canvas>
+
+            </div>
+            <div class="col-sm-9">
+                <h1>Weather Today</h1>
+            </div>
+        </div>
+
+        <!--DATE AND SEARCH-->
+
+
+        <div class="row">
+            <div class="col-sm-3">
+                <p id="date"></p>
+            </div>
+
+            <div class="col-sm-9">
+                <input type="text" id="myInput" placeholder="Enter City..." value="">
+            </div>
+
+
+        </div>
+
+
+
+
+
+        <!--END OF TITLE BAR-->
+
+        <!--START OF MAIN BODY-->
+        <div class="mainbody">
+        </div>
+        <!--END OF MAIN BODY-->
+
+    </div>
+
+    <!--JAVASCRIPT/JQUERY/BOOTSTRAP-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="../WeatherWebsite/plugins/coolclock.js"></script>
+    <script type="text/javascript" src="../WeatherWebsite/plugins/moreskins.js"></script>
+
+    <script src="weatherJS.js"></script>
+</body>
+
+</html>
